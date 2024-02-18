@@ -47,7 +47,7 @@ const Header = () => {
                 <Link to={"/videos"}>Videos</Link>
               </Button>
               <Button onClick={onClose} variant={"ghost"} colorScheme="purple">
-                <Link to={"/videos?category=free"}>Free Videos</Link>
+                <Link to={"/videos"}>Free Videos</Link>
               </Button>
               <Button onClick={onClose} variant={"ghost"} colorScheme="purple">
                 <Link to={"/upload"}>Upload Video</Link>
